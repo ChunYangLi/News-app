@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"热点";
+    self.navigationItem.title = @"热点新闻";
     [self.view setBackgroundColor:[UIColor whiteColor]];
 }
 

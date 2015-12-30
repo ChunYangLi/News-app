@@ -13,6 +13,8 @@
 @property (strong, nonatomic) UIWindow *window;
 @property(strong , nonatomic)UIViewController *ViewController;
 @property(strong , nonatomic)CustomTaBarController *customBar;
+//@property(strong , nonatomic)UINavigationController *navigationcontrl;
+
 
 
 @end

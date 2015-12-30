@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112E1E361C33C06E001C94AE /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E351C33C06E001C94AE /* more.png */; settings = {ASSET_TAGS = (); }; };
+		112E1E3B1C33C5D8001C94AE /* joke.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E3A1C33C5D8001C94AE /* joke.png */; settings = {ASSET_TAGS = (); }; };
+		112E1E3D1C33C78F001C94AE /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E3C1C33C78F001C94AE /* user.png */; settings = {ASSET_TAGS = (); }; };
+		112E1E441C33CED2001C94AE /* userViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112E1E431C33CED2001C94AE /* userViewController.m */; settings = {ASSET_TAGS = (); }; };
 		11EF70401C23DE5C00716491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF703F1C23DE5C00716491 /* main.m */; };
 		11EF70431C23DE5C00716491 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF70421C23DE5C00716491 /* AppDelegate.m */; };
 		11EF70461C23DE5C00716491 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF70451C23DE5C00716491 /* ViewController.m */; };
@@ -18,11 +22,11 @@
 		11EF70751C23E2E300716491 /* JokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF70741C23E2E300716491 /* JokeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		11EF70781C23E2F400716491 /* HotSpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF70771C23E2F400716491 /* HotSpotViewController.m */; settings = {ASSET_TAGS = (); }; };
 		11EF707B1C23E35500716491 /* CustomTaBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF707A1C23E35500716491 /* CustomTaBarController.m */; settings = {ASSET_TAGS = (); }; };
-		11EF70801C23E9A800716491 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF707F1C23E9A800716491 /* loginViewController.m */; settings = {ASSET_TAGS = (); }; };
 		11EF70991C23FE6900716491 /* hot.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EF70981C23FE6900716491 /* hot.png */; settings = {ASSET_TAGS = (); }; };
 		11EF709A1C23FE6900716491 /* hot.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EF70981C23FE6900716491 /* hot.png */; settings = {ASSET_TAGS = (); }; };
 		11EF709B1C23FE6900716491 /* hot.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EF70981C23FE6900716491 /* hot.png */; settings = {ASSET_TAGS = (); }; };
 		11F4D7ED1C28236800FFF136 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4D7EC1C28236800FFF136 /* news.png */; settings = {ASSET_TAGS = (); }; };
+		11F4D7F01C282FE300FFF136 /* CustomNviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F4D7EF1C282FE300FFF136 /* CustomNviViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112E1E351C33C06E001C94AE /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		112E1E3A1C33C5D8001C94AE /* joke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joke.png; sourceTree = "<group>"; };
+		112E1E3C1C33C78F001C94AE /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		112E1E421C33CED2001C94AE /* userViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userViewController.h; sourceTree = "<group>"; };
+		112E1E431C33CED2001C94AE /* userViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userViewController.m; sourceTree = "<group>"; };
 		11EF703B1C23DE5C00716491 /* News-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EF703F1C23DE5C00716491 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11EF70411C23DE5C00716491 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,10 +74,10 @@
 		11EF70771C23E2F400716491 /* HotSpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSpotViewController.m; sourceTree = "<group>"; };
 		11EF70791C23E35500716491 /* CustomTaBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTaBarController.h; sourceTree = "<group>"; };
 		11EF707A1C23E35500716491 /* CustomTaBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTaBarController.m; sourceTree = "<group>"; };
-		11EF707E1C23E9A800716491 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
-		11EF707F1C23E9A800716491 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
 		11EF70981C23FE6900716491 /* hot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hot.png; sourceTree = "<group>"; };
 		11F4D7EC1C28236800FFF136 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		11F4D7EE1C282FE300FFF136 /* CustomNviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNviViewController.h; sourceTree = "<group>"; };
+		11F4D7EF1C282FE300FFF136 /* CustomNviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNviViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +105,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		112E1E3E1C33CB1A001C94AE /* resgin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = resgin;
+			sourceTree = "<group>";
+		};
 		11EF70321C23DE5C00716491 = {
 			isa = PBXGroup;
 			children = (
@@ -162,10 +178,12 @@
 		11EF70711C23E2A100716491 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				11EF707D1C23E95D00716491 /* login */,
+				112E1E3E1C33CB1A001C94AE /* resgin */,
 				11EF70441C23DE5C00716491 /* ViewController.h */,
 				11EF70451C23DE5C00716491 /* ViewController.m */,
 				11EF70731C23E2E300716491 /* JokeViewController.h */,
+				112E1E421C33CED2001C94AE /* userViewController.h */,
+				112E1E431C33CED2001C94AE /* userViewController.m */,
 				11EF70741C23E2E300716491 /* JokeViewController.m */,
 				11EF70761C23E2F400716491 /* HotSpotViewController.h */,
 				11EF70771C23E2F400716491 /* HotSpotViewController.m */,
@@ -178,22 +196,16 @@
 			children = (
 				11EF70791C23E35500716491 /* CustomTaBarController.h */,
 				11EF707A1C23E35500716491 /* CustomTaBarController.m */,
+				11F4D7EE1C282FE300FFF136 /* CustomNviViewController.h */,
+				11F4D7EF1C282FE300FFF136 /* CustomNviViewController.m */,
 			);
 			name = CustomTabar;
-			sourceTree = "<group>";
-		};
-		11EF707D1C23E95D00716491 /* login */ = {
-			isa = PBXGroup;
-			children = (
-				11EF707E1C23E9A800716491 /* loginViewController.h */,
-				11EF707F1C23E9A800716491 /* loginViewController.m */,
-			);
-			name = login;
 			sourceTree = "<group>";
 		};
 		11EF70811C23F2A400716491 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				11F4D7F31C28333D00FFF136 /* naviItem */,
 				11EF70831C23F2B700716491 /* tabar */,
 				11EF70821C23F2AF00716491 /* login */,
 			);
@@ -211,9 +223,19 @@
 			isa = PBXGroup;
 			children = (
 				11F4D7EC1C28236800FFF136 /* news.png */,
+				112E1E3C1C33C78F001C94AE /* user.png */,
+				112E1E3A1C33C5D8001C94AE /* joke.png */,
 				11EF70981C23FE6900716491 /* hot.png */,
 			);
 			name = tabar;
+			sourceTree = "<group>";
+		};
+		11F4D7F31C28333D00FFF136 /* naviItem */ = {
+			isa = PBXGroup;
+			children = (
+				112E1E351C33C06E001C94AE /* more.png */,
+			);
+			name = naviItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +343,9 @@
 			files = (
 				11EF704E1C23DE5C00716491 /* LaunchScreen.storyboard in Resources */,
 				11F4D7ED1C28236800FFF136 /* news.png in Resources */,
+				112E1E3D1C33C78F001C94AE /* user.png in Resources */,
+				112E1E361C33C06E001C94AE /* more.png in Resources */,
+				112E1E3B1C33C5D8001C94AE /* joke.png in Resources */,
 				11EF70991C23FE6900716491 /* hot.png in Resources */,
 				11EF704B1C23DE5C00716491 /* Assets.xcassets in Resources */,
 				11EF70491C23DE5C00716491 /* Main.storyboard in Resources */,
@@ -353,8 +378,9 @@
 				11EF70461C23DE5C00716491 /* ViewController.m in Sources */,
 				11EF70781C23E2F400716491 /* HotSpotViewController.m in Sources */,
 				11EF70431C23DE5C00716491 /* AppDelegate.m in Sources */,
-				11EF70801C23E9A800716491 /* loginViewController.m in Sources */,
+				11F4D7F01C282FE300FFF136 /* CustomNviViewController.m in Sources */,
 				11EF70401C23DE5C00716491 /* main.m in Sources */,
+				112E1E441C33CED2001C94AE /* userViewController.m in Sources */,
 				11EF70751C23E2E300716491 /* JokeViewController.m in Sources */,
 				11EF707B1C23E35500716491 /* CustomTaBarController.m in Sources */,
 			);

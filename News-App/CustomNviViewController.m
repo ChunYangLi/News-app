@@ -1,31 +1,29 @@
+
 //
-//  JokeViewController.m
+//  CustomNviViewController.m
 //  News-App
 //
-//  Created by 李春阳 on 15/12/18.
+//  Created by 李春阳 on 15/12/21.
 //  Copyright © 2015年 李春阳. All rights reserved.
 //
 
-#import "JokeViewController.h"
-@interface JokeViewController ()
+#import "CustomNviViewController.h"
+
+@interface CustomNviViewController ()
 
 @end
 
-@implementation JokeViewController
+@implementation CustomNviViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"搞笑段子";
-    [self.view setBackgroundColor:[UIColor whiteColor]];
-    
-    
-   
 }
+
+
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 /*

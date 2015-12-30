@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "CustomNviViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,12 +22,14 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     self.ViewController = [[ViewController alloc]init];
-//    self.window.rootViewController = self.ViewController;
     [self.window makeKeyAndVisible];
     
     _customBar = [[CustomTaBarController alloc]init];
+    
     self.window.rootViewController = _customBar;
     
+    
+
     
     
     return YES;

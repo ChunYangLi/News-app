@@ -9,6 +9,7 @@
 #import "CustomTaBarController.h"
 #import "HotSpotViewController.h"
 #import "JokeViewController.h"
+#import "userViewController.h"
 #import "ViewController.h"
 @interface CustomTaBarController ()
 
@@ -30,25 +31,11 @@
     HotSpotViewController *hotSpotViewControl =  [[HotSpotViewController alloc] init];
     
     UINavigationController *hotSoptNav = [[UINavigationController alloc]initWithRootViewController:hotSpotViewControl];
-      UITabBarItem *hotSpotItem = [[UITabBarItem alloc]initWithTitle:@"新闻" image:[UIImage imageNamed:@"news.png"] tag:1];
     
-    //UITabBarItem *hotSpotItem = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:0];
+    UITabBarItem *hotSpotItem = [[UITabBarItem alloc]initWithTitle:@"新闻" image:[UIImage imageNamed:@"news.png"] tag:1];
     
     [hotSpotViewControl setTabBarItem:hotSpotItem];
     
-    
-    
- 
-    
-    
-    
-    //笑话频道
-    JokeViewController *jokeViewControl = [[JokeViewController alloc]init];
-    
-    UINavigationController *jokeNav = [[UINavigationController alloc]initWithRootViewController:jokeViewControl];
-    UITabBarItem *jokeItem = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:1];
-   
-    [jokeViewControl setTabBarItem:jokeItem];
     
     
     
@@ -63,8 +50,27 @@
     
     
     
+    //笑话频道
+    JokeViewController *jokeViewControl = [[JokeViewController alloc]init];
     
-    self.viewControllers = @[ViewNav ,hotSoptNav , jokeNav  ];
+    UINavigationController *jokeNav = [[UINavigationController alloc]initWithRootViewController:jokeViewControl];
+    UITabBarItem *jokeItem = [[UITabBarItem alloc]initWithTitle:@"搞笑" image:[UIImage imageNamed:@"joke.png"] tag:3];
+    
+    
+    [jokeViewControl setTabBarItem:jokeItem];
+    
+    
+    //我的
+    
+    userViewController *userTabViewControl = [[userViewController alloc]init];
+    UINavigationController *MyNav = [[UINavigationController alloc]initWithRootViewController:userTabViewControl];
+    
+    UITabBarItem *MyItem = [[UITabBarItem alloc]initWithTitle:@"我的" image:[UIImage imageNamed:@"user.png"] tag:4];
+    
+    [userTabViewControl setTabBarItem:MyItem];
+    
+    
+    self.viewControllers = @[ViewNav ,hotSoptNav , jokeNav  ,MyNav];
     
     
     
