@@ -43,7 +43,7 @@
     
 //    路径
     NSString *path = [[NSBundle mainBundle] pathForResource:@"setting" ofType:@"plist"];
-//    load
+//    loadata
     self.dataList = [NSArray arrayWithContentsOfFile:path];
     
 }

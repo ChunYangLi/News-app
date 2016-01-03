@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>开启横屏模式</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>多语言</string>
+			<key>detail</key>
+			<string>跟随系统</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>自动更新安装包</string>
+			<key>detail</key>
+			<string>仅Wi-Fi网络</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>流量统计</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>字体大小</string>
+			<key>detail</key>
+			<string>标准</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>清理存储空间</string>
+		</dict>
+	</array>
+</array>
+</plist>

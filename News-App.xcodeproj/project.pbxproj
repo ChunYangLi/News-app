@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1110A64D1C390CA500017371 /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1110A64C1C390CA500017371 /* settingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		1110A6501C39159C00017371 /* setting_detail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1110A64F1C39159C00017371 /* setting_detail.plist */; settings = {ASSET_TAGS = (); }; };
 		112E1E361C33C06E001C94AE /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E351C33C06E001C94AE /* more.png */; settings = {ASSET_TAGS = (); }; };
 		112E1E3B1C33C5D8001C94AE /* joke.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E3A1C33C5D8001C94AE /* joke.png */; settings = {ASSET_TAGS = (); }; };
 		112E1E3D1C33C78F001C94AE /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E3C1C33C78F001C94AE /* user.png */; settings = {ASSET_TAGS = (); }; };
@@ -48,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1110A64B1C390CA500017371 /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
+		1110A64C1C390CA500017371 /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
+		1110A64F1C39159C00017371 /* setting_detail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting_detail.plist; sourceTree = "<group>"; };
 		112E1E351C33C06E001C94AE /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
 		112E1E3A1C33C5D8001C94AE /* joke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joke.png; sourceTree = "<group>"; };
 		112E1E3C1C33C78F001C94AE /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
@@ -107,6 +112,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1110A64E1C390CB800017371 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				1110A64B1C390CA500017371 /* settingViewController.h */,
+				1110A64C1C390CA500017371 /* settingViewController.m */,
+				1110A64F1C39159C00017371 /* setting_detail.plist */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
 		112E1E3E1C33CB1A001C94AE /* resgin */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +132,7 @@
 		11E65EB71C38CC0A004CEBCE /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				1110A64E1C390CB800017371 /* 设置 */,
 				112E1E421C33CED2001C94AE /* userViewController.h */,
 				112E1E431C33CED2001C94AE /* userViewController.m */,
 				11E65EBB1C38D02A004CEBCE /* setting.plist */,
@@ -380,6 +396,7 @@
 				11F4D7ED1C28236800FFF136 /* news.png in Resources */,
 				112E1E3D1C33C78F001C94AE /* user.png in Resources */,
 				112E1E361C33C06E001C94AE /* more.png in Resources */,
+				1110A6501C39159C00017371 /* setting_detail.plist in Resources */,
 				11E65EBC1C38D02A004CEBCE /* setting.plist in Resources */,
 				112E1E3B1C33C5D8001C94AE /* joke.png in Resources */,
 				11EF70991C23FE6900716491 /* hot.png in Resources */,
@@ -418,6 +435,7 @@
 				11EF70401C23DE5C00716491 /* main.m in Sources */,
 				112E1E441C33CED2001C94AE /* userViewController.m in Sources */,
 				11EF70751C23E2E300716491 /* JokeViewController.m in Sources */,
+				1110A64D1C390CA500017371 /* settingViewController.m in Sources */,
 				11EF707B1C23E35500716491 /* CustomTaBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
