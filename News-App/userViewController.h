@@ -10,7 +10,8 @@
 
 @interface userViewController : UIViewController<UITableViewDataSource , UITableViewDelegate>
 {
-    UITableView *userMessage;
+    UITableView *UserItem;
+    NSArray *setArr;
 }
 
 @end

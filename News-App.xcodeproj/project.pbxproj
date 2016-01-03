@@ -11,6 +11,7 @@
 		112E1E3B1C33C5D8001C94AE /* joke.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E3A1C33C5D8001C94AE /* joke.png */; settings = {ASSET_TAGS = (); }; };
 		112E1E3D1C33C78F001C94AE /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E3C1C33C78F001C94AE /* user.png */; settings = {ASSET_TAGS = (); }; };
 		112E1E441C33CED2001C94AE /* userViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112E1E431C33CED2001C94AE /* userViewController.m */; settings = {ASSET_TAGS = (); }; };
+		11E65EBC1C38D02A004CEBCE /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11E65EBB1C38D02A004CEBCE /* setting.plist */; settings = {ASSET_TAGS = (); }; };
 		11EF70401C23DE5C00716491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF703F1C23DE5C00716491 /* main.m */; };
 		11EF70431C23DE5C00716491 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF70421C23DE5C00716491 /* AppDelegate.m */; };
 		11EF70461C23DE5C00716491 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF70451C23DE5C00716491 /* ViewController.m */; };
@@ -52,6 +53,7 @@
 		112E1E3C1C33C78F001C94AE /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		112E1E421C33CED2001C94AE /* userViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userViewController.h; sourceTree = "<group>"; };
 		112E1E431C33CED2001C94AE /* userViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userViewController.m; sourceTree = "<group>"; };
+		11E65EBB1C38D02A004CEBCE /* setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting.plist; sourceTree = "<group>"; };
 		11EF703B1C23DE5C00716491 /* News-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EF703F1C23DE5C00716491 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11EF70411C23DE5C00716491 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +112,43 @@
 			children = (
 			);
 			name = resgin;
+			sourceTree = "<group>";
+		};
+		11E65EB71C38CC0A004CEBCE /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				112E1E421C33CED2001C94AE /* userViewController.h */,
+				112E1E431C33CED2001C94AE /* userViewController.m */,
+				11E65EBB1C38D02A004CEBCE /* setting.plist */,
+			);
+			name = "我的";
+			sourceTree = "<group>";
+		};
+		11E65EB81C38CC24004CEBCE /* 订阅 */ = {
+			isa = PBXGroup;
+			children = (
+				11EF70441C23DE5C00716491 /* ViewController.h */,
+				11EF70451C23DE5C00716491 /* ViewController.m */,
+			);
+			name = "订阅";
+			sourceTree = "<group>";
+		};
+		11E65EB91C38CC31004CEBCE /* 新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				11EF70761C23E2F400716491 /* HotSpotViewController.h */,
+				11EF70771C23E2F400716491 /* HotSpotViewController.m */,
+			);
+			name = "新闻";
+			sourceTree = "<group>";
+		};
+		11E65EBA1C38CC37004CEBCE /* 搞笑 */ = {
+			isa = PBXGroup;
+			children = (
+				11EF70731C23E2E300716491 /* JokeViewController.h */,
+				11EF70741C23E2E300716491 /* JokeViewController.m */,
+			);
+			name = "搞笑";
 			sourceTree = "<group>";
 		};
 		11EF70321C23DE5C00716491 = {
@@ -178,15 +217,11 @@
 		11EF70711C23E2A100716491 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				11E65EBA1C38CC37004CEBCE /* 搞笑 */,
+				11E65EB91C38CC31004CEBCE /* 新闻 */,
+				11E65EB81C38CC24004CEBCE /* 订阅 */,
+				11E65EB71C38CC0A004CEBCE /* 我的 */,
 				112E1E3E1C33CB1A001C94AE /* resgin */,
-				11EF70441C23DE5C00716491 /* ViewController.h */,
-				11EF70451C23DE5C00716491 /* ViewController.m */,
-				11EF70731C23E2E300716491 /* JokeViewController.h */,
-				112E1E421C33CED2001C94AE /* userViewController.h */,
-				112E1E431C33CED2001C94AE /* userViewController.m */,
-				11EF70741C23E2E300716491 /* JokeViewController.m */,
-				11EF70761C23E2F400716491 /* HotSpotViewController.h */,
-				11EF70771C23E2F400716491 /* HotSpotViewController.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -345,6 +380,7 @@
 				11F4D7ED1C28236800FFF136 /* news.png in Resources */,
 				112E1E3D1C33C78F001C94AE /* user.png in Resources */,
 				112E1E361C33C06E001C94AE /* more.png in Resources */,
+				11E65EBC1C38D02A004CEBCE /* setting.plist in Resources */,
 				112E1E3B1C33C5D8001C94AE /* joke.png in Resources */,
 				11EF70991C23FE6900716491 /* hot.png in Resources */,
 				11EF704B1C23DE5C00716491 /* Assets.xcassets in Resources */,
