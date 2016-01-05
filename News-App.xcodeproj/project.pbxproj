@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1110A64D1C390CA500017371 /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1110A64C1C390CA500017371 /* settingViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1110A6501C39159C00017371 /* setting_detail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1110A64F1C39159C00017371 /* setting_detail.plist */; settings = {ASSET_TAGS = (); }; };
 		112E1E361C33C06E001C94AE /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E351C33C06E001C94AE /* more.png */; settings = {ASSET_TAGS = (); }; };
 		112E1E3B1C33C5D8001C94AE /* joke.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E3A1C33C5D8001C94AE /* joke.png */; settings = {ASSET_TAGS = (); }; };
 		112E1E3D1C33C78F001C94AE /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 112E1E3C1C33C78F001C94AE /* user.png */; settings = {ASSET_TAGS = (); }; };
@@ -28,6 +27,11 @@
 		11EF70991C23FE6900716491 /* hot.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EF70981C23FE6900716491 /* hot.png */; settings = {ASSET_TAGS = (); }; };
 		11EF709A1C23FE6900716491 /* hot.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EF70981C23FE6900716491 /* hot.png */; settings = {ASSET_TAGS = (); }; };
 		11EF709B1C23FE6900716491 /* hot.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EF70981C23FE6900716491 /* hot.png */; settings = {ASSET_TAGS = (); }; };
+		11F13A3C1C3BC90F004D8838 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F13A3B1C3BC90F004D8838 /* CollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		11F13A3F1C3BCA39004D8838 /* SharViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F13A3E1C3BCA39004D8838 /* SharViewController.m */; settings = {ASSET_TAGS = (); }; };
+		11F13A421C3BCBBA004D8838 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F13A411C3BCBBA004D8838 /* HelpViewController.m */; settings = {ASSET_TAGS = (); }; };
+		11F13A451C3BCC05004D8838 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F13A441C3BCC05004D8838 /* AboutViewController.m */; settings = {ASSET_TAGS = (); }; };
+		11F13A471C3BD130004D8838 /* settingdetail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F13A461C3BD130004D8838 /* settingdetail.plist */; settings = {ASSET_TAGS = (); }; };
 		11F4D7ED1C28236800FFF136 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4D7EC1C28236800FFF136 /* news.png */; settings = {ASSET_TAGS = (); }; };
 		11F4D7F01C282FE300FFF136 /* CustomNviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F4D7EF1C282FE300FFF136 /* CustomNviViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -52,7 +56,6 @@
 /* Begin PBXFileReference section */
 		1110A64B1C390CA500017371 /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
 		1110A64C1C390CA500017371 /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
-		1110A64F1C39159C00017371 /* setting_detail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting_detail.plist; sourceTree = "<group>"; };
 		112E1E351C33C06E001C94AE /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
 		112E1E3A1C33C5D8001C94AE /* joke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joke.png; sourceTree = "<group>"; };
 		112E1E3C1C33C78F001C94AE /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
@@ -82,6 +85,15 @@
 		11EF70791C23E35500716491 /* CustomTaBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTaBarController.h; sourceTree = "<group>"; };
 		11EF707A1C23E35500716491 /* CustomTaBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTaBarController.m; sourceTree = "<group>"; };
 		11EF70981C23FE6900716491 /* hot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hot.png; sourceTree = "<group>"; };
+		11F13A3A1C3BC90F004D8838 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		11F13A3B1C3BC90F004D8838 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		11F13A3D1C3BCA39004D8838 /* SharViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharViewController.h; sourceTree = "<group>"; };
+		11F13A3E1C3BCA39004D8838 /* SharViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharViewController.m; sourceTree = "<group>"; };
+		11F13A401C3BCBBA004D8838 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		11F13A411C3BCBBA004D8838 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		11F13A431C3BCC05004D8838 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		11F13A441C3BCC05004D8838 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		11F13A461C3BD130004D8838 /* settingdetail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settingdetail.plist; sourceTree = "<group>"; };
 		11F4D7EC1C28236800FFF136 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
 		11F4D7EE1C282FE300FFF136 /* CustomNviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNviViewController.h; sourceTree = "<group>"; };
 		11F4D7EF1C282FE300FFF136 /* CustomNviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNviViewController.m; sourceTree = "<group>"; };
@@ -117,7 +129,15 @@
 			children = (
 				1110A64B1C390CA500017371 /* settingViewController.h */,
 				1110A64C1C390CA500017371 /* settingViewController.m */,
-				1110A64F1C39159C00017371 /* setting_detail.plist */,
+				11F13A461C3BD130004D8838 /* settingdetail.plist */,
+				11F13A3A1C3BC90F004D8838 /* CollectionViewController.h */,
+				11F13A3B1C3BC90F004D8838 /* CollectionViewController.m */,
+				11F13A3D1C3BCA39004D8838 /* SharViewController.h */,
+				11F13A3E1C3BCA39004D8838 /* SharViewController.m */,
+				11F13A401C3BCBBA004D8838 /* HelpViewController.h */,
+				11F13A411C3BCBBA004D8838 /* HelpViewController.m */,
+				11F13A431C3BCC05004D8838 /* AboutViewController.h */,
+				11F13A441C3BCC05004D8838 /* AboutViewController.m */,
 			);
 			name = "设置";
 			sourceTree = "<group>";
@@ -396,7 +416,7 @@
 				11F4D7ED1C28236800FFF136 /* news.png in Resources */,
 				112E1E3D1C33C78F001C94AE /* user.png in Resources */,
 				112E1E361C33C06E001C94AE /* more.png in Resources */,
-				1110A6501C39159C00017371 /* setting_detail.plist in Resources */,
+				11F13A471C3BD130004D8838 /* settingdetail.plist in Resources */,
 				11E65EBC1C38D02A004CEBCE /* setting.plist in Resources */,
 				112E1E3B1C33C5D8001C94AE /* joke.png in Resources */,
 				11EF70991C23FE6900716491 /* hot.png in Resources */,
@@ -430,12 +450,16 @@
 			files = (
 				11EF70461C23DE5C00716491 /* ViewController.m in Sources */,
 				11EF70781C23E2F400716491 /* HotSpotViewController.m in Sources */,
+				11F13A3F1C3BCA39004D8838 /* SharViewController.m in Sources */,
 				11EF70431C23DE5C00716491 /* AppDelegate.m in Sources */,
 				11F4D7F01C282FE300FFF136 /* CustomNviViewController.m in Sources */,
 				11EF70401C23DE5C00716491 /* main.m in Sources */,
 				112E1E441C33CED2001C94AE /* userViewController.m in Sources */,
+				11F13A421C3BCBBA004D8838 /* HelpViewController.m in Sources */,
 				11EF70751C23E2E300716491 /* JokeViewController.m in Sources */,
 				1110A64D1C390CA500017371 /* settingViewController.m in Sources */,
+				11F13A3C1C3BC90F004D8838 /* CollectionViewController.m in Sources */,
+				11F13A451C3BCC05004D8838 /* AboutViewController.m in Sources */,
 				11EF707B1C23E35500716491 /* CustomTaBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

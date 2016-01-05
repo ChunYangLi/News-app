@@ -15,12 +15,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>自动更新安装包</string>
-			<key>detail</key>
-			<string>仅Wi-Fi网络</string>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>流量统计</string>
 		</dict>
 		<dict>
@@ -28,6 +22,14 @@
 			<string>字体大小</string>
 			<key>detail</key>
 			<string>标准</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>自动更新安装包</string>
+			<key>detail</key>
+			<string>仅Wi-Fi网络</string>
 		</dict>
 		<dict>
 			<key>name</key>
